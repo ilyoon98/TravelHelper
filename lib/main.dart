@@ -35,7 +35,7 @@ class TravelHelperApp extends StatelessWidget {
       child: Consumer<ThemeProvider>(
         builder: (context, theme, _) {
           return MaterialApp(
-            title: '여행 도우미',
+            title: 'Travel Helper',
             debugShowCheckedModeBanner: false,
             themeMode: theme.isDark ? ThemeMode.dark : ThemeMode.light,
             theme: ThemeData(
