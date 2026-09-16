@@ -1,0 +1,11 @@
+{
+  "code": "ID",
+  "name": "인도네시아",
+  "currencies": [
+    {
+      "currency": "IDR",
+      "symbol": "Rp",
+      "rate_to_krw": 0.087
+    }
+  ]
+}

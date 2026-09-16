@@ -1,0 +1,11 @@
+{
+  "code": "ZA",
+  "name": "남아공",
+  "currencies": [
+    {
+      "currency": "ZAR",
+      "symbol": "R",
+      "rate_to_krw": 75
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "code": "TZ",
+  "name": "탄자니아",
+  "currencies": [
+    {
+      "currency": "TZS",
+      "symbol": "TSh",
+      "rate_to_krw": 0.53
+    }
+  ]
+}

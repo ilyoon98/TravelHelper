@@ -1,0 +1,11 @@
+{
+  "code": "BO",
+  "name": "볼리비아",
+  "currencies": [
+    {
+      "currency": "BOB",
+      "symbol": "Bs",
+      "rate_to_krw": 200
+    }
+  ]
+}

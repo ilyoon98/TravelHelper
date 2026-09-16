@@ -1,0 +1,11 @@
+{
+  "code": "ZM",
+  "name": "잠비아",
+  "currencies": [
+    {
+      "currency": "ZMW",
+      "symbol": "K",
+      "rate_to_krw": 50
+    }
+  ]
+}

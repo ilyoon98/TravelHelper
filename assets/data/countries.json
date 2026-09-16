@@ -1,0 +1,252 @@
+[
+  {
+    "code": "KR",
+    "name": "대한민국",
+    "nameEn": "South Korea",
+    "flag": "🇰🇷",
+    "language": null,
+    "region": "동아시아",
+    "hasNumbers": false,
+    "hasPhrases": false
+  },
+  {
+    "code": "TH",
+    "name": "태국",
+    "nameEn": "Thailand",
+    "flag": "🇹🇭",
+    "language": "th",
+    "region": "동남아시아",
+    "hasNumbers": true,
+    "hasPhrases": true
+  },
+  {
+    "code": "JP",
+    "name": "일본",
+    "nameEn": "Japan",
+    "flag": "🇯🇵",
+    "language": "ja",
+    "region": "동아시아",
+    "hasNumbers": true,
+    "hasPhrases": true
+  },
+  {
+    "code": "VN",
+    "name": "베트남",
+    "nameEn": "Vietnam",
+    "flag": "🇻🇳",
+    "language": "vi",
+    "region": "동남아시아",
+    "hasNumbers": true,
+    "hasPhrases": true
+  },
+  {
+    "code": "ZA",
+    "name": "남아공",
+    "nameEn": "South Africa",
+    "flag": "🇿🇦",
+    "language": "en",
+    "region": "아프리카",
+    "hasNumbers": true,
+    "hasPhrases": true
+  },
+  {
+    "code": "NA",
+    "name": "나미비아",
+    "nameEn": "Namibia",
+    "flag": "🇳🇦",
+    "language": "en",
+    "region": "아프리카",
+    "hasNumbers": true,
+    "hasPhrases": true
+  },
+  {
+    "code": "ZW",
+    "name": "짐바브웨",
+    "nameEn": "Zimbabwe",
+    "flag": "🇿🇼",
+    "language": "en",
+    "region": "아프리카",
+    "hasNumbers": true,
+    "hasPhrases": true
+  },
+  {
+    "code": "ZM",
+    "name": "잠비아",
+    "nameEn": "Zambia",
+    "flag": "🇿🇲",
+    "language": "en",
+    "region": "아프리카",
+    "hasNumbers": true,
+    "hasPhrases": true
+  },
+  {
+    "code": "KE",
+    "name": "케냐",
+    "nameEn": "Kenya",
+    "flag": "🇰🇪",
+    "language": "en",
+    "region": "아프리카",
+    "hasNumbers": true,
+    "hasPhrases": true
+  },
+  {
+    "code": "TZ",
+    "name": "탄자니아",
+    "nameEn": "Tanzania",
+    "flag": "🇹🇿",
+    "language": "en",
+    "region": "아프리카",
+    "hasNumbers": true,
+    "hasPhrases": true
+  },
+  {
+    "code": "EG",
+    "name": "이집트",
+    "nameEn": "Egypt",
+    "flag": "🇪🇬",
+    "language": "ar",
+    "region": "아프리카",
+    "hasNumbers": true,
+    "hasPhrases": true
+  },
+  {
+    "code": "AR",
+    "name": "아르헨티나",
+    "nameEn": "Argentina",
+    "flag": "🇦🇷",
+    "language": "es",
+    "region": "남미",
+    "hasNumbers": true,
+    "hasPhrases": true
+  },
+  {
+    "code": "BR",
+    "name": "브라질",
+    "nameEn": "Brazil",
+    "flag": "🇧🇷",
+    "language": "pt",
+    "region": "남미",
+    "hasNumbers": true,
+    "hasPhrases": true
+  },
+  {
+    "code": "BO",
+    "name": "볼리비아",
+    "nameEn": "Bolivia",
+    "flag": "🇧🇴",
+    "language": "es",
+    "region": "남미",
+    "hasNumbers": true,
+    "hasPhrases": true
+  },
+  {
+    "code": "CL",
+    "name": "칠레",
+    "nameEn": "Chile",
+    "flag": "🇨🇱",
+    "language": "es",
+    "region": "남미",
+    "hasNumbers": true,
+    "hasPhrases": true
+  },
+  {
+    "code": "PE",
+    "name": "페루",
+    "nameEn": "Peru",
+    "flag": "🇵🇪",
+    "language": "es",
+    "region": "남미",
+    "hasNumbers": true,
+    "hasPhrases": true
+  },
+  {
+    "code": "EC",
+    "name": "에콰도르",
+    "nameEn": "Ecuador",
+    "flag": "🇪🇨",
+    "language": "es",
+    "region": "남미",
+    "hasNumbers": true,
+    "hasPhrases": true
+  },
+  {
+    "code": "CO",
+    "name": "콜롬비아",
+    "nameEn": "Colombia",
+    "flag": "🇨🇴",
+    "language": "es",
+    "region": "남미",
+    "hasNumbers": true,
+    "hasPhrases": true
+  },
+  {
+    "code": "MX",
+    "name": "멕시코",
+    "nameEn": "Mexico",
+    "flag": "🇲🇽",
+    "language": "es",
+    "region": "중미",
+    "hasNumbers": true,
+    "hasPhrases": true
+  },
+  {
+    "code": "AU",
+    "name": "호주",
+    "nameEn": "Australia",
+    "flag": "🇦🇺",
+    "language": "en",
+    "region": "오세아니아",
+    "hasNumbers": true,
+    "hasPhrases": true
+  },
+  {
+    "code": "NZ",
+    "name": "뉴질랜드",
+    "nameEn": "New Zealand",
+    "flag": "🇳🇿",
+    "language": "en",
+    "region": "오세아니아",
+    "hasNumbers": true,
+    "hasPhrases": true
+  },
+  {
+    "code": "ID",
+    "name": "인도네시아",
+    "nameEn": "Indonesia",
+    "flag": "🇮🇩",
+    "language": "id",
+    "region": "동남아시아",
+    "hasNumbers": true,
+    "hasPhrases": true
+  },
+  {
+    "code": "UK",
+    "name": "영국",
+    "nameEn": "United Kingdom",
+    "flag": "🇬🇧",
+    "language": "en",
+    "region": "유럽",
+    "hasNumbers": true,
+    "hasPhrases": true
+  },
+  {
+    "code": "FI",
+    "name": "핀란드",
+    "nameEn": "Finland",
+    "flag": "🇫🇮",
+    "language": "fi",
+    "region": "유럽",
+    "hasNumbers": true,
+    "hasPhrases": true
+  },
+  {
+    "code": "EUR",
+    "name": "유로",
+    "nameEn": "Euro",
+    "flag": "🇪🇺",
+    "language": null,
+    "region": "유럽",
+    "hasNumbers": false,
+    "hasPhrases": false
+  }
+]

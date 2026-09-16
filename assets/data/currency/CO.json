@@ -1,0 +1,11 @@
+{
+  "code": "CO",
+  "name": "콜롬비아",
+  "currencies": [
+    {
+      "currency": "COP",
+      "symbol": "$",
+      "rate_to_krw": 0.33
+    }
+  ]
+}

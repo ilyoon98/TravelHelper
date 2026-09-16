@@ -1,0 +1,11 @@
+{
+  "code": "MX",
+  "name": "멕시코",
+  "currencies": [
+    {
+      "currency": "MXN",
+      "symbol": "$",
+      "rate_to_krw": 72
+    }
+  ]
+}

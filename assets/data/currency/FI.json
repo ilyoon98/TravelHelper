@@ -1,0 +1,11 @@
+{
+  "code": "FI",
+  "name": "핀란드",
+  "currencies": [
+    {
+      "currency": "EUR",
+      "symbol": "€",
+      "rate_to_krw": 1500
+    }
+  ]
+}

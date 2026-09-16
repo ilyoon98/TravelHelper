@@ -1,0 +1,58 @@
+{
+  "code": "ID",
+  "name": "인도네시아",
+  "flag": "🇮🇩",
+  "language": "id",
+  "numbers": {
+    "0": {
+      "native": "nol",
+      "pronunciation": "nol",
+      "korean": "놀"
+    },
+    "1": {
+      "native": "satu",
+      "pronunciation": "sah-too",
+      "korean": "사뚜"
+    },
+    "2": {
+      "native": "dua",
+      "pronunciation": "doo-ah",
+      "korean": "두아"
+    },
+    "3": {
+      "native": "tiga",
+      "pronunciation": "tee-gah",
+      "korean": "띠가"
+    },
+    "4": {
+      "native": "empat",
+      "pronunciation": "uhm-paht",
+      "korean": "음빳"
+    },
+    "5": {
+      "native": "lima",
+      "pronunciation": "lee-mah",
+      "korean": "리마"
+    },
+    "6": {
+      "native": "enam",
+      "pronunciation": "uh-nahm",
+      "korean": "으남"
+    },
+    "7": {
+      "native": "tujuh",
+      "pronunciation": "too-joo",
+      "korean": "뚜주"
+    },
+    "8": {
+      "native": "delapan",
+      "pronunciation": "duh-lah-pahn",
+      "korean": "들라빤"
+    },
+    "9": {
+      "native": "sembilan",
+      "pronunciation": "suhm-bee-lahn",
+      "korean": "슴빌란"
+    }
+  }
+}

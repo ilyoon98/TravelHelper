@@ -1,0 +1,11 @@
+{
+  "code": "NA",
+  "name": "나미비아",
+  "currencies": [
+    {
+      "currency": "NAD",
+      "symbol": "N$",
+      "rate_to_krw": 75
+    }
+  ]
+}

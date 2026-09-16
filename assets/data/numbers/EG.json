@@ -1,0 +1,58 @@
+{
+  "code": "EG",
+  "name": "이집트",
+  "flag": "🇪🇬",
+  "language": "ar",
+  "numbers": {
+    "0": {
+      "native": "صفر",
+      "pronunciation": "sifr",
+      "korean": "시프르"
+    },
+    "1": {
+      "native": "واحد",
+      "pronunciation": "wahid",
+      "korean": "와히드"
+    },
+    "2": {
+      "native": "اتنين",
+      "pronunciation": "itnein",
+      "korean": "이트네인"
+    },
+    "3": {
+      "native": "تلاتة",
+      "pronunciation": "talata",
+      "korean": "탈라타"
+    },
+    "4": {
+      "native": "أربعة",
+      "pronunciation": "arbaa",
+      "korean": "아르바아"
+    },
+    "5": {
+      "native": "خمسة",
+      "pronunciation": "khamsa",
+      "korean": "캄사"
+    },
+    "6": {
+      "native": "ستة",
+      "pronunciation": "sitta",
+      "korean": "시타"
+    },
+    "7": {
+      "native": "سبعة",
+      "pronunciation": "saba",
+      "korean": "사브아"
+    },
+    "8": {
+      "native": "تمانية",
+      "pronunciation": "tamanya",
+      "korean": "타만야"
+    },
+    "9": {
+      "native": "تسعة",
+      "pronunciation": "tisaa",
+      "korean": "티스아"
+    }
+  }
+}

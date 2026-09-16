@@ -1,0 +1,58 @@
+{
+  "code": "CO",
+  "name": "콜롬비아",
+  "flag": "🇨🇴",
+  "language": "es",
+  "numbers": {
+    "0": {
+      "native": "cero",
+      "pronunciation": "seh-ro",
+      "korean": "쎄로"
+    },
+    "1": {
+      "native": "uno",
+      "pronunciation": "oo-no",
+      "korean": "우노"
+    },
+    "2": {
+      "native": "dos",
+      "pronunciation": "dos",
+      "korean": "도스"
+    },
+    "3": {
+      "native": "tres",
+      "pronunciation": "tres",
+      "korean": "뜨레스"
+    },
+    "4": {
+      "native": "cuatro",
+      "pronunciation": "kwah-tro",
+      "korean": "꽈뜨로"
+    },
+    "5": {
+      "native": "cinco",
+      "pronunciation": "seen-ko",
+      "korean": "씽꼬"
+    },
+    "6": {
+      "native": "seis",
+      "pronunciation": "seys",
+      "korean": "세이스"
+    },
+    "7": {
+      "native": "siete",
+      "pronunciation": "see-eh-teh",
+      "korean": "씨에떼"
+    },
+    "8": {
+      "native": "ocho",
+      "pronunciation": "oh-cho",
+      "korean": "오초"
+    },
+    "9": {
+      "native": "nueve",
+      "pronunciation": "nweh-veh",
+      "korean": "누에베"
+    }
+  }
+}

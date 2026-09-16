@@ -1,0 +1,16 @@
+{
+  "code": "UK",
+  "name": "영국",
+  "currencies": [
+    {
+      "currency": "GBP",
+      "symbol": "£",
+      "rate_to_krw": 1750
+    },
+    {
+      "currency": "EUR",
+      "symbol": "€",
+      "rate_to_krw": 1500
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "code": "BR",
+  "name": "브라질",
+  "flag": "🇧🇷",
+  "language": "pt",
+  "numbers": {
+    "0": {
+      "native": "zero",
+      "pronunciation": "zeh-ro",
+      "korean": "제루"
+    },
+    "1": {
+      "native": "um",
+      "pronunciation": "oom",
+      "korean": "웅"
+    },
+    "2": {
+      "native": "dois",
+      "pronunciation": "doys",
+      "korean": "도이스"
+    },
+    "3": {
+      "native": "três",
+      "pronunciation": "tres",
+      "korean": "뜨레스"
+    },
+    "4": {
+      "native": "quatro",
+      "pronunciation": "kwah-tro",
+      "korean": "꽈뜨루"
+    },
+    "5": {
+      "native": "cinco",
+      "pronunciation": "seen-ko",
+      "korean": "씽꾸"
+    },
+    "6": {
+      "native": "seis",
+      "pronunciation": "seys",
+      "korean": "쎄이스"
+    },
+    "7": {
+      "native": "sete",
+      "pronunciation": "seh-chee",
+      "korean": "세치"
+    },
+    "8": {
+      "native": "oito",
+      "pronunciation": "oy-too",
+      "korean": "오이뚜"
+    },
+    "9": {
+      "native": "nove",
+      "pronunciation": "no-vee",
+      "korean": "노비"
+    }
+  }
+}

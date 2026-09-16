@@ -1,0 +1,11 @@
+{
+  "code": "KE",
+  "name": "케냐",
+  "currencies": [
+    {
+      "currency": "KES",
+      "symbol": "KSh",
+      "rate_to_krw": 10.5
+    }
+  ]
+}

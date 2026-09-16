@@ -1,0 +1,11 @@
+{
+  "code": "EG",
+  "name": "이집트",
+  "currencies": [
+    {
+      "currency": "EGP",
+      "symbol": "E£",
+      "rate_to_krw": 28
+    }
+  ]
+}

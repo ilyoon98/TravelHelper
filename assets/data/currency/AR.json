@@ -1,0 +1,11 @@
+{
+  "code": "AR",
+  "name": "아르헨티나",
+  "currencies": [
+    {
+      "currency": "ARS",
+      "symbol": "$",
+      "rate_to_krw": 1.35
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "code": "VN",
+  "name": "베트남",
+  "currencies": [
+    {
+      "currency": "VND",
+      "symbol": "₫",
+      "rate_to_krw": 0.055
+    }
+  ]
+}

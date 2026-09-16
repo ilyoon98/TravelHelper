@@ -1,0 +1,58 @@
+{
+  "code": "TH",
+  "name": "태국",
+  "flag": "🇹🇭",
+  "language": "th",
+  "numbers": {
+    "0": {
+      "native": "ศูนย์",
+      "pronunciation": "soon",
+      "korean": "쑨"
+    },
+    "1": {
+      "native": "หนึ่ง",
+      "pronunciation": "neung",
+      "korean": "능"
+    },
+    "2": {
+      "native": "สอง",
+      "pronunciation": "song",
+      "korean": "썽"
+    },
+    "3": {
+      "native": "สาม",
+      "pronunciation": "saam",
+      "korean": "쌈"
+    },
+    "4": {
+      "native": "สี่",
+      "pronunciation": "see",
+      "korean": "씨"
+    },
+    "5": {
+      "native": "ห้า",
+      "pronunciation": "haa",
+      "korean": "하"
+    },
+    "6": {
+      "native": "หก",
+      "pronunciation": "hok",
+      "korean": "혹"
+    },
+    "7": {
+      "native": "เจ็ด",
+      "pronunciation": "jet",
+      "korean": "쨋"
+    },
+    "8": {
+      "native": "แปด",
+      "pronunciation": "bpaet",
+      "korean": "빠엣"
+    },
+    "9": {
+      "native": "เก้า",
+      "pronunciation": "gao",
+      "korean": "까오"
+    }
+  }
+}

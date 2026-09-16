@@ -1,0 +1,11 @@
+{
+  "code": "KR",
+  "name": "대한민국",
+  "currencies": [
+    {
+      "currency": "KRW",
+      "symbol": "₩",
+      "rate_to_krw": 1
+    }
+  ]
+}

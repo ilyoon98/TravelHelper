@@ -1,0 +1,58 @@
+{
+  "code": "NZ",
+  "name": "뉴질랜드",
+  "flag": "🇳🇿",
+  "language": "en",
+  "numbers": {
+    "0": {
+      "native": "zero",
+      "pronunciation": "zee-ro",
+      "korean": "지로우"
+    },
+    "1": {
+      "native": "one",
+      "pronunciation": "wuhn",
+      "korean": "원"
+    },
+    "2": {
+      "native": "two",
+      "pronunciation": "too",
+      "korean": "투"
+    },
+    "3": {
+      "native": "three",
+      "pronunciation": "three",
+      "korean": "쓰리"
+    },
+    "4": {
+      "native": "four",
+      "pronunciation": "for",
+      "korean": "포"
+    },
+    "5": {
+      "native": "five",
+      "pronunciation": "faiv",
+      "korean": "파이브"
+    },
+    "6": {
+      "native": "six",
+      "pronunciation": "siks",
+      "korean": "씩스"
+    },
+    "7": {
+      "native": "seven",
+      "pronunciation": "sev-uhn",
+      "korean": "세븐"
+    },
+    "8": {
+      "native": "eight",
+      "pronunciation": "eyt",
+      "korean": "에잇"
+    },
+    "9": {
+      "native": "nine",
+      "pronunciation": "nain",
+      "korean": "나인"
+    }
+  }
+}

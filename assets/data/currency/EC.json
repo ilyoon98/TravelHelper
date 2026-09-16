@@ -1,0 +1,11 @@
+{
+  "code": "EC",
+  "name": "에콰도르",
+  "currencies": [
+    {
+      "currency": "USD",
+      "symbol": "$",
+      "rate_to_krw": 1380
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "code": "TH",
+  "name": "태국",
+  "currencies": [
+    {
+      "currency": "THB",
+      "symbol": "฿",
+      "rate_to_krw": 38.5
+    }
+  ]
+}

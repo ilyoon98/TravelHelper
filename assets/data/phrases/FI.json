@@ -1,0 +1,97 @@
+{
+  "code": "FI",
+  "name": "핀란드",
+  "categories": [
+    {
+      "category": "인사말",
+      "phrases": [
+        {
+          "korean": "안녕하세요",
+          "native": "Hei",
+          "pronunciation": "hey",
+          "korean_pron": "헤이"
+        },
+        {
+          "korean": "좋은아침입니다",
+          "native": "Hyvää huomenta",
+          "pronunciation": "hew-vah hwo-men-tah",
+          "korean_pron": "휘바 후오멘따"
+        }
+      ]
+    },
+    {
+      "category": "감사·사과",
+      "phrases": [
+        {
+          "korean": "감사합니다",
+          "native": "Kiitos",
+          "pronunciation": "kee-tos",
+          "korean_pron": "끼또스"
+        },
+        {
+          "korean": "미안합니다",
+          "native": "Anteeksi",
+          "pronunciation": "ahn-teyk-si",
+          "korean_pron": "안떽시"
+        }
+      ]
+    },
+    {
+      "category": "가격·흥정",
+      "phrases": [
+        {
+          "korean": "얼마예요?",
+          "native": "Paljonko tämä maksaa?",
+          "pronunciation": "pahl-yon-ko tah-mah mahk-sah",
+          "korean_pron": "빨욘꼬 따매 막사"
+        },
+        {
+          "korean": "깎아주세요",
+          "native": "Voitko antaa alennusta?",
+          "pronunciation": "voyt-ko ahn-tah ah-len-noos-tah",
+          "korean_pron": "보잇꼬 안따 알렌누스따"
+        }
+      ]
+    },
+    {
+      "category": "길찾기",
+      "phrases": [
+        {
+          "korean": "화장실이 어디예요?",
+          "native": "Missä on vessa?",
+          "pronunciation": "mis-sah on ves-sah",
+          "korean_pron": "미싸 온 베사"
+        },
+        {
+          "korean": "여기 어떻게 가요?",
+          "native": "Miten pääsen tänne?",
+          "pronunciation": "mee-ten pah-sen tan-neh",
+          "korean_pron": "미뗀 빼센 딴네"
+        }
+      ]
+    },
+    {
+      "category": "음식 요청",
+      "phrases": [
+        {
+          "korean": "고수 빼주세요",
+          "native": "Ilman korianteria",
+          "pronunciation": "eel-mahn ko-ree-ahn-teh-ree-ah",
+          "korean_pron": "일만 꼬리안떼리아"
+        },
+        {
+          "korean": "차갑게해주세요",
+          "native": "Kylmänä, kiitos",
+          "pronunciation": "kewl-mah-nah kee-tos",
+          "korean_pron": "뀔매내 끼또스"
+        },
+        {
+          "korean": "얼음",
+          "native": "Jäätä",
+          "pronunciation": "yah-tah",
+          "korean_pron": "얘따"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "code": "JP",
+  "name": "일본",
+  "currencies": [
+    {
+      "currency": "JPY",
+      "symbol": "¥",
+      "rate_to_krw": 9.2
+    }
+  ]
+}

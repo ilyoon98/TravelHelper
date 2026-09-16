@@ -1,0 +1,11 @@
+{
+  "code": "CL",
+  "name": "칠레",
+  "currencies": [
+    {
+      "currency": "CLP",
+      "symbol": "$",
+      "rate_to_krw": 1.45
+    }
+  ]
+}

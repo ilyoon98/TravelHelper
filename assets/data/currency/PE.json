@@ -1,0 +1,11 @@
+{
+  "code": "PE",
+  "name": "페루",
+  "currencies": [
+    {
+      "currency": "PEN",
+      "symbol": "S/",
+      "rate_to_krw": 370
+    }
+  ]
+}

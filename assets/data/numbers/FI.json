@@ -1,0 +1,58 @@
+{
+  "code": "FI",
+  "name": "핀란드",
+  "flag": "🇫🇮",
+  "language": "fi",
+  "numbers": {
+    "0": {
+      "native": "nolla",
+      "pronunciation": "nol-lah",
+      "korean": "놀라"
+    },
+    "1": {
+      "native": "yksi",
+      "pronunciation": "ewk-si",
+      "korean": "윅시"
+    },
+    "2": {
+      "native": "kaksi",
+      "pronunciation": "kahk-si",
+      "korean": "칵시"
+    },
+    "3": {
+      "native": "kolme",
+      "pronunciation": "kol-meh",
+      "korean": "꼴메"
+    },
+    "4": {
+      "native": "neljä",
+      "pronunciation": "nel-yah",
+      "korean": "넬야"
+    },
+    "5": {
+      "native": "viisi",
+      "pronunciation": "vee-si",
+      "korean": "비시"
+    },
+    "6": {
+      "native": "kuusi",
+      "pronunciation": "koo-si",
+      "korean": "꾸시"
+    },
+    "7": {
+      "native": "seitsemän",
+      "pronunciation": "seyt-seh-mahn",
+      "korean": "세이쩨만"
+    },
+    "8": {
+      "native": "kahdeksan",
+      "pronunciation": "kahh-dek-sahn",
+      "korean": "카흐덱산"
+    },
+    "9": {
+      "native": "yhdeksän",
+      "pronunciation": "ewkh-dek-sahn",
+      "korean": "우흐덱산"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "code": "NZ",
+  "name": "뉴질랜드",
+  "currencies": [
+    {
+      "currency": "NZD",
+      "symbol": "$",
+      "rate_to_krw": 820
+    }
+  ]
+}

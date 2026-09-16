@@ -1,0 +1,97 @@
+{
+  "code": "EG",
+  "name": "이집트",
+  "categories": [
+    {
+      "category": "인사말",
+      "phrases": [
+        {
+          "korean": "안녕하세요",
+          "native": "السلام عليكم",
+          "pronunciation": "as-salamu alaykum",
+          "korean_pron": "아쌀라무 알레이쿰"
+        },
+        {
+          "korean": "좋은아침입니다",
+          "native": "صباح الخير",
+          "pronunciation": "sabah el-kheir",
+          "korean_pron": "사바흐 엘케이르"
+        }
+      ]
+    },
+    {
+      "category": "감사·사과",
+      "phrases": [
+        {
+          "korean": "감사합니다",
+          "native": "شكرا",
+          "pronunciation": "shukran",
+          "korean_pron": "슈크란"
+        },
+        {
+          "korean": "미안합니다",
+          "native": "آسف",
+          "pronunciation": "aasif",
+          "korean_pron": "아씨프"
+        }
+      ]
+    },
+    {
+      "category": "가격·흥정",
+      "phrases": [
+        {
+          "korean": "얼마예요?",
+          "native": "بكام؟",
+          "pronunciation": "bikam",
+          "korean_pron": "비캄"
+        },
+        {
+          "korean": "깎아주세요",
+          "native": "ممكن تخفيض؟",
+          "pronunciation": "mumkin takhfid",
+          "korean_pron": "뭄킨 타크피드"
+        }
+      ]
+    },
+    {
+      "category": "길찾기",
+      "phrases": [
+        {
+          "korean": "화장실이 어디예요?",
+          "native": "فين الحمام؟",
+          "pronunciation": "fein el-hammam",
+          "korean_pron": "페인 엘함맘"
+        },
+        {
+          "korean": "여기 어떻게 가요?",
+          "native": "إزاي أروح هنا؟",
+          "pronunciation": "ezay arouh hena",
+          "korean_pron": "이자이 아루흐 헤나"
+        }
+      ]
+    },
+    {
+      "category": "음식 요청",
+      "phrases": [
+        {
+          "korean": "고수 빼주세요",
+          "native": "من غير كزبرة",
+          "pronunciation": "min ghair kuzbara",
+          "korean_pron": "민 가이르 쿠즈바라"
+        },
+        {
+          "korean": "차갑게해주세요",
+          "native": "بارد لو سمحت",
+          "pronunciation": "barid law samaht",
+          "korean_pron": "바리드 로 사마흐트"
+        },
+        {
+          "korean": "얼음",
+          "native": "تلج",
+          "pronunciation": "talg",
+          "korean_pron": "탈그"
+        }
+      ]
+    }
+  ]
+}

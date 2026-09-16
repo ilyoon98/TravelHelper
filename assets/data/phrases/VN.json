@@ -1,0 +1,97 @@
+{
+  "code": "VN",
+  "name": "베트남",
+  "categories": [
+    {
+      "category": "인사말",
+      "phrases": [
+        {
+          "korean": "안녕하세요",
+          "native": "Xin chào",
+          "pronunciation": "sin chow",
+          "korean_pron": "씬 짜오"
+        },
+        {
+          "korean": "좋은아침입니다",
+          "native": "Chào buổi sáng",
+          "pronunciation": "chow booy sahng",
+          "korean_pron": "짜오 부오이 상"
+        }
+      ]
+    },
+    {
+      "category": "감사·사과",
+      "phrases": [
+        {
+          "korean": "감사합니다",
+          "native": "Cảm ơn",
+          "pronunciation": "gahm uhn",
+          "korean_pron": "깜언"
+        },
+        {
+          "korean": "미안합니다",
+          "native": "Xin lỗi",
+          "pronunciation": "sin loy",
+          "korean_pron": "씬 로이"
+        }
+      ]
+    },
+    {
+      "category": "가격·흥정",
+      "phrases": [
+        {
+          "korean": "얼마예요?",
+          "native": "Bao nhiêu tiền",
+          "pronunciation": "bao nyew tien",
+          "korean_pron": "바오 니에우 띠엔"
+        },
+        {
+          "korean": "깎아주세요",
+          "native": "Giảm giá được không",
+          "pronunciation": "zam za duoc khong",
+          "korean_pron": "잠 자 드억 콩"
+        }
+      ]
+    },
+    {
+      "category": "길찾기",
+      "phrases": [
+        {
+          "korean": "화장실이 어디예요?",
+          "native": "Nhà vệ sinh ở đâu",
+          "pronunciation": "nya ve sing uh dow",
+          "korean_pron": "냐 베 씽 어 더우"
+        },
+        {
+          "korean": "여기 어떻게 가요?",
+          "native": "Đi đến đây thế nào",
+          "pronunciation": "di den day the nao",
+          "korean_pron": "디 덴 다이 테 나오"
+        }
+      ]
+    },
+    {
+      "category": "음식 요청",
+      "phrases": [
+        {
+          "korean": "고수 빼주세요",
+          "native": "Không cho rau mùi",
+          "pronunciation": "khong cho rao moy",
+          "korean_pron": "콩 쪼 라우 무이"
+        },
+        {
+          "korean": "차갑게해주세요",
+          "native": "Cho lạnh",
+          "pronunciation": "cho lanh",
+          "korean_pron": "쪼 라잉"
+        },
+        {
+          "korean": "얼음",
+          "native": "Đá",
+          "pronunciation": "da",
+          "korean_pron": "다"
+        }
+      ]
+    }
+  ]
+}

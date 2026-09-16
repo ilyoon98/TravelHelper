@@ -1,0 +1,11 @@
+{
+  "code": "EUR",
+  "name": "유로",
+  "currencies": [
+    {
+      "currency": "EUR",
+      "symbol": "€",
+      "rate_to_krw": 1500
+    }
+  ]
+}

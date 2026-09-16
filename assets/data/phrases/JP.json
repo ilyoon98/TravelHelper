@@ -1,0 +1,97 @@
+{
+  "code": "JP",
+  "name": "일본",
+  "categories": [
+    {
+      "category": "인사말",
+      "phrases": [
+        {
+          "korean": "안녕하세요",
+          "native": "こんにちは",
+          "pronunciation": "konnichiwa",
+          "korean_pron": "곤니치와"
+        },
+        {
+          "korean": "좋은아침입니다",
+          "native": "おはようございます",
+          "pronunciation": "ohayou gozaimasu",
+          "korean_pron": "오하요- 고자이마스"
+        }
+      ]
+    },
+    {
+      "category": "감사·사과",
+      "phrases": [
+        {
+          "korean": "감사합니다",
+          "native": "ありがとうございます",
+          "pronunciation": "arigatou gozaimasu",
+          "korean_pron": "아리가토- 고자이마스"
+        },
+        {
+          "korean": "미안합니다",
+          "native": "すみません",
+          "pronunciation": "sumimasen",
+          "korean_pron": "스미마센"
+        }
+      ]
+    },
+    {
+      "category": "가격·흥정",
+      "phrases": [
+        {
+          "korean": "얼마예요?",
+          "native": "いくらですか",
+          "pronunciation": "ikura desu ka",
+          "korean_pron": "이꾸라 데스까"
+        },
+        {
+          "korean": "깎아주세요",
+          "native": "安くしてください",
+          "pronunciation": "yasuku shite kudasai",
+          "korean_pron": "야스쿠 시떼 구다사이"
+        }
+      ]
+    },
+    {
+      "category": "길찾기",
+      "phrases": [
+        {
+          "korean": "화장실이 어디예요?",
+          "native": "トイレはどこですか",
+          "pronunciation": "toire wa doko desu ka",
+          "korean_pron": "토이레와 도꼬데스까"
+        },
+        {
+          "korean": "여기 어떻게 가요?",
+          "native": "ここへの行き方は？",
+          "pronunciation": "koko e no ikikata wa",
+          "korean_pron": "코코에노 이키카타와"
+        }
+      ]
+    },
+    {
+      "category": "음식 요청",
+      "phrases": [
+        {
+          "korean": "고수 빼주세요",
+          "native": "パクチー抜きで",
+          "pronunciation": "pakuchii nuki de",
+          "korean_pron": "파쿠치- 누키데"
+        },
+        {
+          "korean": "차갑게해주세요",
+          "native": "冷たくしてください",
+          "pronunciation": "tsumetaku shite kudasai",
+          "korean_pron": "츠메타쿠 시떼 구다사이"
+        },
+        {
+          "korean": "얼음",
+          "native": "氷",
+          "pronunciation": "koori",
+          "korean_pron": "코-리"
+        }
+      ]
+    }
+  ]
+}

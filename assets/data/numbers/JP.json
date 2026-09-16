@@ -1,0 +1,58 @@
+{
+  "code": "JP",
+  "name": "일본",
+  "flag": "🇯🇵",
+  "language": "ja",
+  "numbers": {
+    "0": {
+      "native": "ゼロ",
+      "pronunciation": "zero",
+      "korean": "제로"
+    },
+    "1": {
+      "native": "いち",
+      "pronunciation": "ichi",
+      "korean": "이치"
+    },
+    "2": {
+      "native": "に",
+      "pronunciation": "ni",
+      "korean": "니"
+    },
+    "3": {
+      "native": "さん",
+      "pronunciation": "san",
+      "korean": "상"
+    },
+    "4": {
+      "native": "よん",
+      "pronunciation": "yon",
+      "korean": "욘"
+    },
+    "5": {
+      "native": "ご",
+      "pronunciation": "go",
+      "korean": "고"
+    },
+    "6": {
+      "native": "ろく",
+      "pronunciation": "roku",
+      "korean": "로쿠"
+    },
+    "7": {
+      "native": "なな",
+      "pronunciation": "nana",
+      "korean": "나나"
+    },
+    "8": {
+      "native": "はち",
+      "pronunciation": "hachi",
+      "korean": "하치"
+    },
+    "9": {
+      "native": "きゅう",
+      "pronunciation": "kyuu",
+      "korean": "큐-"
+    }
+  }
+}

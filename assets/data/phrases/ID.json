@@ -1,0 +1,97 @@
+{
+  "code": "ID",
+  "name": "인도네시아",
+  "categories": [
+    {
+      "category": "인사말",
+      "phrases": [
+        {
+          "korean": "안녕하세요",
+          "native": "Halo",
+          "pronunciation": "ha-lo",
+          "korean_pron": "할로"
+        },
+        {
+          "korean": "좋은아침입니다",
+          "native": "Selamat pagi",
+          "pronunciation": "suh-lah-mat pah-gee",
+          "korean_pron": "슬라맛 빠기"
+        }
+      ]
+    },
+    {
+      "category": "감사·사과",
+      "phrases": [
+        {
+          "korean": "감사합니다",
+          "native": "Terima kasih",
+          "pronunciation": "tuh-ree-mah kah-see",
+          "korean_pron": "뜨리마 까시"
+        },
+        {
+          "korean": "미안합니다",
+          "native": "Maaf",
+          "pronunciation": "mah-ahf",
+          "korean_pron": "마아프"
+        }
+      ]
+    },
+    {
+      "category": "가격·흥정",
+      "phrases": [
+        {
+          "korean": "얼마예요?",
+          "native": "Berapa harganya?",
+          "pronunciation": "buh-rah-pah har-gah-nya",
+          "korean_pron": "브라빠 하르가냐"
+        },
+        {
+          "korean": "깎아주세요",
+          "native": "Bisa kurang harganya?",
+          "pronunciation": "bee-sah koo-rang har-gah-nya",
+          "korean_pron": "비사 꾸랑 하르가냐"
+        }
+      ]
+    },
+    {
+      "category": "길찾기",
+      "phrases": [
+        {
+          "korean": "화장실이 어디예요?",
+          "native": "Di mana toiletnya?",
+          "pronunciation": "dee mah-nah toi-let-nya",
+          "korean_pron": "디 마나 토일렛냐"
+        },
+        {
+          "korean": "여기 어떻게 가요?",
+          "native": "Bagaimana cara ke sini?",
+          "pronunciation": "bah-gai-mah-nah chah-rah kuh see-nee",
+          "korean_pron": "바가이마나 짜라 끄 시니"
+        }
+      ]
+    },
+    {
+      "category": "음식 요청",
+      "phrases": [
+        {
+          "korean": "고수 빼주세요",
+          "native": "Tanpa ketumbar",
+          "pronunciation": "tan-pah kuh-toom-bar",
+          "korean_pron": "딴빠 끄뚬바르"
+        },
+        {
+          "korean": "차갑게해주세요",
+          "native": "Tolong dingin",
+          "pronunciation": "toh-long ding-in",
+          "korean_pron": "똘롱 딩인"
+        },
+        {
+          "korean": "얼음",
+          "native": "Es",
+          "pronunciation": "es",
+          "korean_pron": "에스"
+        }
+      ]
+    }
+  ]
+}

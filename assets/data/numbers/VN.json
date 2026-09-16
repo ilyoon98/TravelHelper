@@ -1,0 +1,58 @@
+{
+  "code": "VN",
+  "name": "베트남",
+  "flag": "🇻🇳",
+  "language": "vi",
+  "numbers": {
+    "0": {
+      "native": "không",
+      "pronunciation": "khohng",
+      "korean": "콩"
+    },
+    "1": {
+      "native": "một",
+      "pronunciation": "moht",
+      "korean": "못"
+    },
+    "2": {
+      "native": "hai",
+      "pronunciation": "hai",
+      "korean": "하이"
+    },
+    "3": {
+      "native": "ba",
+      "pronunciation": "ba",
+      "korean": "바"
+    },
+    "4": {
+      "native": "bốn",
+      "pronunciation": "bohn",
+      "korean": "본"
+    },
+    "5": {
+      "native": "năm",
+      "pronunciation": "nam",
+      "korean": "남"
+    },
+    "6": {
+      "native": "sáu",
+      "pronunciation": "sao",
+      "korean": "사우"
+    },
+    "7": {
+      "native": "bảy",
+      "pronunciation": "bye",
+      "korean": "바이"
+    },
+    "8": {
+      "native": "tám",
+      "pronunciation": "tam",
+      "korean": "땀"
+    },
+    "9": {
+      "native": "chín",
+      "pronunciation": "cheen",
+      "korean": "찐"
+    }
+  }
+}

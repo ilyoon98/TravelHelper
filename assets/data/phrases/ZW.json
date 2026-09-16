@@ -1,0 +1,97 @@
+{
+  "code": "ZW",
+  "name": "짐바브웨",
+  "categories": [
+    {
+      "category": "인사말",
+      "phrases": [
+        {
+          "korean": "안녕하세요",
+          "native": "Hello",
+          "pronunciation": "heh-lo",
+          "korean_pron": "헬로우"
+        },
+        {
+          "korean": "좋은아침입니다",
+          "native": "Good morning",
+          "pronunciation": "good mor-ning",
+          "korean_pron": "굿모닝"
+        }
+      ]
+    },
+    {
+      "category": "감사·사과",
+      "phrases": [
+        {
+          "korean": "감사합니다",
+          "native": "Thank you",
+          "pronunciation": "thank you",
+          "korean_pron": "땡큐"
+        },
+        {
+          "korean": "미안합니다",
+          "native": "Sorry",
+          "pronunciation": "sor-ry",
+          "korean_pron": "쏘리"
+        }
+      ]
+    },
+    {
+      "category": "가격·흥정",
+      "phrases": [
+        {
+          "korean": "얼마예요?",
+          "native": "How much is it?",
+          "pronunciation": "how much iz it",
+          "korean_pron": "하우 마치 이즈 잇"
+        },
+        {
+          "korean": "깎아주세요",
+          "native": "Can you give a discount?",
+          "pronunciation": "kan yoo giv uh dis-kount",
+          "korean_pron": "캔 유 기브 어 디스카운트"
+        }
+      ]
+    },
+    {
+      "category": "길찾기",
+      "phrases": [
+        {
+          "korean": "화장실이 어디예요?",
+          "native": "Where is the restroom?",
+          "pronunciation": "wair iz thuh rest-room",
+          "korean_pron": "웨어 이즈 더 레스트룸"
+        },
+        {
+          "korean": "여기 어떻게 가요?",
+          "native": "How do I get here?",
+          "pronunciation": "how doo ai get heer",
+          "korean_pron": "하우 두 아이 겟 히어"
+        }
+      ]
+    },
+    {
+      "category": "음식 요청",
+      "phrases": [
+        {
+          "korean": "고수 빼주세요",
+          "native": "No cilantro, please",
+          "pronunciation": "noh si-lan-tro pleez",
+          "korean_pron": "노 실란트로 플리즈"
+        },
+        {
+          "korean": "차갑게해주세요",
+          "native": "Make it cold, please",
+          "pronunciation": "make it kohld pleez",
+          "korean_pron": "메이킷 콜드 플리즈"
+        },
+        {
+          "korean": "얼음",
+          "native": "Ice",
+          "pronunciation": "ais",
+          "korean_pron": "아이스"
+        }
+      ]
+    }
+  ]
+}

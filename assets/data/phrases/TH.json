@@ -1,0 +1,97 @@
+{
+  "code": "TH",
+  "name": "태국",
+  "categories": [
+    {
+      "category": "인사말",
+      "phrases": [
+        {
+          "korean": "안녕하세요",
+          "native": "สวัสดี",
+          "pronunciation": "sawadee",
+          "korean_pron": "싸왓디"
+        },
+        {
+          "korean": "좋은아침입니다",
+          "native": "อรุณสวัสดิ์",
+          "pronunciation": "aroon sawat",
+          "korean_pron": "아룬 싸왓"
+        }
+      ]
+    },
+    {
+      "category": "감사·사과",
+      "phrases": [
+        {
+          "korean": "감사합니다",
+          "native": "ขอบคุณ",
+          "pronunciation": "khob khun",
+          "korean_pron": "컵쿤"
+        },
+        {
+          "korean": "미안합니다",
+          "native": "ขอโทษ",
+          "pronunciation": "kho thot",
+          "korean_pron": "커토"
+        }
+      ]
+    },
+    {
+      "category": "가격·흥정",
+      "phrases": [
+        {
+          "korean": "얼마예요?",
+          "native": "เท่าไหร่",
+          "pronunciation": "tao rai",
+          "korean_pron": "타오라이"
+        },
+        {
+          "korean": "깎아주세요",
+          "native": "ลดหน่อยได้ไหม",
+          "pronunciation": "lot noi dai mai",
+          "korean_pron": "롯너이다이마이"
+        }
+      ]
+    },
+    {
+      "category": "길찾기",
+      "phrases": [
+        {
+          "korean": "화장실이 어디예요?",
+          "native": "ห้องน้ำอยู่ไหน",
+          "pronunciation": "hong nam yu nai",
+          "korean_pron": "헝남유나이"
+        },
+        {
+          "korean": "여기 어떻게 가요?",
+          "native": "ไปที่นี่อย่างไร",
+          "pronunciation": "pai thi ni yang rai",
+          "korean_pron": "빠이티니양라이"
+        }
+      ]
+    },
+    {
+      "category": "음식 요청",
+      "phrases": [
+        {
+          "korean": "고수 빼주세요",
+          "native": "ไม่ใส่ผักชี",
+          "pronunciation": "mai sai phak chee",
+          "korean_pron": "마이사이팍치"
+        },
+        {
+          "korean": "차갑게해주세요",
+          "native": "ขอเย็นๆ",
+          "pronunciation": "kho yen yen",
+          "korean_pron": "커옌옌"
+        },
+        {
+          "korean": "얼음",
+          "native": "น้ำแข็ง",
+          "pronunciation": "nam khaeng",
+          "korean_pron": "남캥"
+        }
+      ]
+    }
+  ]
+}

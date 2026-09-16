@@ -1,0 +1,11 @@
+{
+  "code": "BR",
+  "name": "브라질",
+  "currencies": [
+    {
+      "currency": "BRL",
+      "symbol": "R$",
+      "rate_to_krw": 250
+    }
+  ]
+}

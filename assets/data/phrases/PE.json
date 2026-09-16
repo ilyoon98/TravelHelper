@@ -1,0 +1,97 @@
+{
+  "code": "PE",
+  "name": "페루",
+  "categories": [
+    {
+      "category": "인사말",
+      "phrases": [
+        {
+          "korean": "안녕하세요",
+          "native": "Hola",
+          "pronunciation": "oh-la",
+          "korean_pron": "올라"
+        },
+        {
+          "korean": "좋은아침입니다",
+          "native": "Buenos días",
+          "pronunciation": "bweh-nos dee-as",
+          "korean_pron": "부에노스 디아스"
+        }
+      ]
+    },
+    {
+      "category": "감사·사과",
+      "phrases": [
+        {
+          "korean": "감사합니다",
+          "native": "Gracias",
+          "pronunciation": "grah-see-as",
+          "korean_pron": "그라시아스"
+        },
+        {
+          "korean": "미안합니다",
+          "native": "Lo siento",
+          "pronunciation": "lo see-en-to",
+          "korean_pron": "로 시엔토"
+        }
+      ]
+    },
+    {
+      "category": "가격·흥정",
+      "phrases": [
+        {
+          "korean": "얼마예요?",
+          "native": "¿Cuánto cuesta?",
+          "pronunciation": "kwan-to kwes-ta",
+          "korean_pron": "꾸안또 꾸에스따"
+        },
+        {
+          "korean": "깎아주세요",
+          "native": "¿Me hace un descuento?",
+          "pronunciation": "meh ah-seh oon des-kwen-to",
+          "korean_pron": "메 아세 운 데스꾸엔또"
+        }
+      ]
+    },
+    {
+      "category": "길찾기",
+      "phrases": [
+        {
+          "korean": "화장실이 어디예요?",
+          "native": "¿Dónde está el baño?",
+          "pronunciation": "don-deh es-tah el ban-yo",
+          "korean_pron": "돈데 에스따 엘 바뇨"
+        },
+        {
+          "korean": "여기 어떻게 가요?",
+          "native": "¿Cómo llego aquí?",
+          "pronunciation": "koh-mo yeh-go ah-kee",
+          "korean_pron": "꼬모 예고 아끼"
+        }
+      ]
+    },
+    {
+      "category": "음식 요청",
+      "phrases": [
+        {
+          "korean": "고수 빼주세요",
+          "native": "Sin cilantro, por favor",
+          "pronunciation": "sin see-lan-tro por fah-vor",
+          "korean_pron": "씬 씰란트로 뽀르 파보르"
+        },
+        {
+          "korean": "차갑게해주세요",
+          "native": "Bien frío, por favor",
+          "pronunciation": "bee-en free-o por fah-vor",
+          "korean_pron": "비엔 프리오 뽀르 파보르"
+        },
+        {
+          "korean": "얼음",
+          "native": "Hielo",
+          "pronunciation": "yeh-lo",
+          "korean_pron": "옐로"
+        }
+      ]
+    }
+  ]
+}

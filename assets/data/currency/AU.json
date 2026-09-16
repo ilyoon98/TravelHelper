@@ -1,0 +1,11 @@
+{
+  "code": "AU",
+  "name": "호주",
+  "currencies": [
+    {
+      "currency": "AUD",
+      "symbol": "$",
+      "rate_to_krw": 900
+    }
+  ]
+}
