@@ -7,7 +7,6 @@ import '../models/country.dart';
 import '../models/currency_data.dart';
 import '../providers/country_provider.dart';
 import '../providers/rate_cache_provider.dart';
-import '../services/ad_service.dart';
 import '../services/data_service.dart';
 import '../services/exchange_rate_service.dart';
 import '../services/number_to_words.dart' show commaFormat;
@@ -21,8 +20,7 @@ import 'widgets/numpad.dart';
 /// 쓰지 않는다 (설정 탭과 같은 이유로 AppHeader 미사용) — 처음 진입할 때만
 /// 공유 선택 국가를 왼쪽 기본값으로 가져오고, 그 뒤로는 완전히 독립적이다.
 ///
-/// "🔄 최신 환율 받기"는 리워드 광고를 끝까지 봐야 API를 호출한다 (spec
-/// section 5). 한 번의 API 호출로 전체 통화를 한꺼번에 갱신하므로
+/// "🔄 최신 환율 받기"는 한 번의 API 호출로 전체 통화를 한꺼번에 갱신하므로
 /// (RateCacheProvider 참고) 어느 쪽 통화를 고르든 새로 받을 필요가 없고,
 /// 성공한 갱신마다 [RateCacheProvider.cooldown] 동안 다시 누를 수 없다.
 ///
@@ -47,23 +45,9 @@ class _CurrencyTabState extends State<CurrencyTab> {
   CountryCurrency? _rightCurrency;
   int _leftIndex = 0;
   int _rightIndex = 0;
-  Timer? _adRetryTimer;
-
-  @override
-  void initState() {
-    super.initState();
-    // Keeps a rewarded ad topped up while this tab is around, so tapping
-    // "최신 환율 받기" doesn't usually hit "광고 준비 중" — tied to this
-    // widget's lifecycle (not a permanent service-level timer) so it stops
-    // the moment the tab goes away instead of running for the whole app.
-    _adRetryTimer = Timer.periodic(const Duration(seconds: 20), (_) {
-      context.read<AdService>().ensureRewardedAdLoading();
-    });
-  }
 
   @override
   void dispose() {
-    _adRetryTimer?.cancel();
     _cooldownTicker?.cancel();
     super.dispose();
   }
@@ -157,24 +141,12 @@ class _CurrencyTabState extends State<CurrencyTab> {
   Future<void> _onRefresh() async {
     setState(() => _refreshing = true);
     try {
-      final earned = await context.read<AdService>().showRewardedAd();
-      if (!earned) {
-        if (mounted) {
-          ScaffoldMessenger.of(context).showSnackBar(
-            const SnackBar(content: Text('광고를 끝까지 시청해야 환율을 받을 수 있어요')),
-          );
-        }
-        return;
-      }
-      if (!mounted) return;
       await context.read<RateCacheProvider>().refreshAll();
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
           const SnackBar(content: Text('전체 통화의 최신 환율을 받아왔습니다')),
         );
       }
-    } on AdNotReadyException {
-      if (mounted) _showFailureDialog('광고를 준비하는 중입니다. 잠시 후 다시 시도해주세요');
     } on ExchangeRateException catch (e) {
       if (mounted) _showFailureDialog(e.message);
     } catch (_) {

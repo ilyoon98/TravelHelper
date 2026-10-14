@@ -7,9 +7,7 @@ import '../services/exchange_rate_service.dart';
 /// [RateCache] for why a single refresh covers all of them at once.
 ///
 /// Refreshing is rate-limited: a successful fetch starts a cooldown so users
-/// can't hammer the free API by mashing the button, and it doubles as the
-/// natural slot for a rewarded-ad gate later (ad shown once per cooldown
-/// instead of every tap). A *failed* attempt does not start the cooldown —
+/// can't hammer the free API by mashing the button. A *failed* attempt does not start the cooldown —
 /// people should be able to retry right away.
 class RateCacheProvider extends ChangeNotifier {
   static const cooldown = Duration(minutes: 5);

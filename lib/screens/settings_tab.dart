@@ -6,10 +6,6 @@ import '../providers/rate_cache_provider.dart';
 import '../providers/theme_provider.dart';
 
 /// 탭4 — 설정. No country picker here (spec section 2).
-///
-/// NOTE: "광고 제거 구매" row is still omitted — there is nothing to remove
-/// yet since ads are deferred (see currency_tab.dart for the ad-related
-/// decision). Add it back once AdMob lands.
 class SettingsTab extends StatelessWidget {
   const SettingsTab({super.key});
 

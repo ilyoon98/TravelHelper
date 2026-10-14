@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 
-import '../services/ad_service.dart';
 import 'currency_tab.dart';
 import 'number_tab.dart';
 import 'phrase_tab.dart';
@@ -29,16 +27,9 @@ class _HomeShellState extends State<HomeShell> {
 
   @override
   Widget build(BuildContext context) {
-    final adService = context.watch<AdService>();
     return Scaffold(
       body: SafeArea(
-        child: Column(
-          children: [
-            Expanded(child: IndexedStack(index: _index, children: _tabs)),
-            if (!adService.isAdRemoved)
-              Center(child: adService.bannerWidget(context)),
-          ],
-        ),
+        child: IndexedStack(index: _index, children: _tabs),
       ),
       bottomNavigationBar: NavigationBar(
         selectedIndex: _index,
