@@ -90,6 +90,18 @@
           "native": "氷",
           "pronunciation": "koori",
           "korean_pron": "코-리"
+        },
+        {
+          "korean": "맥주 주세요",
+          "native": "ビールください",
+          "pronunciation": "biiru kudasai",
+          "korean_pron": "비-루 쿠다사이"
+        },
+        {
+          "korean": "맥주는 얼마예요?",
+          "native": "ビールはいくらですか",
+          "pronunciation": "biiru wa ikura desu ka",
+          "korean_pron": "비-루와 이꾸라 데스까"
         }
       ]
     }
