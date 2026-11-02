@@ -119,6 +119,14 @@ class _PhraseCategoryCard extends StatelessWidget {
             ),
             const Divider(),
             for (final p in category.phrases) _PhraseRow(phrase: p),
+            if (category.phrases.any((p) => p.korean.contains('[')))
+              Padding(
+                padding: const EdgeInsets.only(top: 8),
+                child: _SwappableText(
+                  '[색칠된 단어]는 다른 단어로 바꿔 말해도 돼요',
+                  style: const TextStyle(fontSize: 13, color: Colors.grey),
+                ),
+              ),
           ],
         ),
       ),
@@ -139,20 +147,50 @@ class _PhraseRow extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Expanded(
-            child: Text(phrase.korean, style: const TextStyle(fontSize: 15, color: Colors.grey)),
+            child: _SwappableText(phrase.korean, style: const TextStyle(fontSize: 15, color: Colors.grey)),
           ),
           Expanded(
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.end,
               children: [
-                Text(phrase.native, style: const TextStyle(fontSize: 19), textAlign: TextAlign.end),
-                Text(phrase.koreanPron, style: TextStyle(fontSize: 15, color: scheme.primary), textAlign: TextAlign.end),
-                Text(phrase.pronunciation, style: const TextStyle(fontSize: 14, color: Colors.grey), textAlign: TextAlign.end),
+                _SwappableText(phrase.native, style: const TextStyle(fontSize: 19), textAlign: TextAlign.end),
+                _SwappableText(phrase.koreanPron, style: TextStyle(fontSize: 15, color: scheme.primary), textAlign: TextAlign.end),
+                _SwappableText(phrase.pronunciation, style: const TextStyle(fontSize: 14, color: Colors.grey), textAlign: TextAlign.end),
               ],
             ),
           ),
         ],
       ),
     );
+  }
+}
+
+/// Renders phrase data where `[word]` marks a word the traveller can swap for
+/// another one (e.g. 맥주 → 물) — brackets are dropped and the word is colored.
+class _SwappableText extends StatelessWidget {
+  final String text;
+  final TextStyle style;
+  final TextAlign? textAlign;
+
+  const _SwappableText(this.text, {required this.style, this.textAlign});
+
+  static final _marker = RegExp(r'\[([^\]]+)\]');
+
+  @override
+  Widget build(BuildContext context) {
+    final dark = Theme.of(context).brightness == Brightness.dark;
+    final highlight = TextStyle(
+      color: dark ? Colors.orange.shade300 : Colors.deepOrange.shade700,
+      fontWeight: FontWeight.bold,
+    );
+    final spans = <TextSpan>[];
+    var last = 0;
+    for (final m in _marker.allMatches(text)) {
+      if (m.start > last) spans.add(TextSpan(text: text.substring(last, m.start)));
+      spans.add(TextSpan(text: m.group(1), style: highlight));
+      last = m.end;
+    }
+    if (last < text.length) spans.add(TextSpan(text: text.substring(last)));
+    return Text.rich(TextSpan(style: style, children: spans), textAlign: textAlign);
   }
 }

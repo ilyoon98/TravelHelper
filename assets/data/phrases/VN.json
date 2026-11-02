@@ -92,16 +92,16 @@
           "korean_pron": "다"
         },
         {
-          "korean": "맥주 주세요",
-          "native": "Cho tôi bia",
-          "pronunciation": "cho toy bia",
-          "korean_pron": "쪼 또이 비아"
+          "korean": "[맥주] 주세요",
+          "native": "Cho tôi [bia]",
+          "pronunciation": "cho toy [bia]",
+          "korean_pron": "쪼 또이 [비아]"
         },
         {
-          "korean": "맥주는 얼마예요?",
-          "native": "Bia bao nhiêu tiền?",
-          "pronunciation": "bia bao nyew tien",
-          "korean_pron": "비아 바오 니에우 띠엔"
+          "korean": "[맥주]는 얼마예요?",
+          "native": "[Bia] bao nhiêu tiền?",
+          "pronunciation": "[bia] bao nyew tien",
+          "korean_pron": "[비아] 바오 니에우 띠엔"
         }
       ]
     }

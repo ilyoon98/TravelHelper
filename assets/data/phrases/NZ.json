@@ -92,16 +92,16 @@
           "korean_pron": "아이스"
         },
         {
-          "korean": "맥주 주세요",
-          "native": "A beer, please",
-          "pronunciation": "uh beer pleez",
-          "korean_pron": "어 비어 플리즈"
+          "korean": "[맥주] 주세요",
+          "native": "A [beer], please",
+          "pronunciation": "uh [beer] pleez",
+          "korean_pron": "어 [비어] 플리즈"
         },
         {
-          "korean": "맥주는 얼마예요?",
-          "native": "How much is the beer?",
-          "pronunciation": "how much iz the beer",
-          "korean_pron": "하우 마치 이즈 더 비어"
+          "korean": "[맥주]는 얼마예요?",
+          "native": "How much is the [beer]?",
+          "pronunciation": "how much iz the [beer]",
+          "korean_pron": "하우 마치 이즈 더 [비어]"
         }
       ]
     }

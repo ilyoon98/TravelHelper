@@ -92,16 +92,16 @@
           "korean_pron": "옐로"
         },
         {
-          "korean": "맥주 주세요",
-          "native": "Una cerveza, por favor",
-          "pronunciation": "oo-na ser-veh-sa por fah-vor",
-          "korean_pron": "우나 세르베사 뽀르 파보르"
+          "korean": "[맥주] 주세요",
+          "native": "Una [cerveza], por favor",
+          "pronunciation": "oo-na [ser-veh-sa] por fah-vor",
+          "korean_pron": "우나 [세르베사] 뽀르 파보르"
         },
         {
-          "korean": "맥주는 얼마예요?",
-          "native": "¿Cuánto cuesta la cerveza?",
-          "pronunciation": "kwan-to kwes-ta la ser-veh-sa",
-          "korean_pron": "꾸안또 꾸에스따 라 세르베사"
+          "korean": "[맥주]는 얼마예요?",
+          "native": "¿Cuánto cuesta la [cerveza]?",
+          "pronunciation": "kwan-to kwes-ta la [ser-veh-sa]",
+          "korean_pron": "꾸안또 꾸에스따 라 [세르베사]"
         }
       ]
     }

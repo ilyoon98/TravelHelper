@@ -92,16 +92,16 @@
           "korean_pron": "에스"
         },
         {
-          "korean": "맥주 주세요",
-          "native": "Minta bir satu",
-          "pronunciation": "min-tah beer sah-too",
-          "korean_pron": "민따 비르 사뚜"
+          "korean": "[맥주] 주세요",
+          "native": "Minta [bir] satu",
+          "pronunciation": "min-tah [beer] sah-too",
+          "korean_pron": "민따 [비르] 사뚜"
         },
         {
-          "korean": "맥주는 얼마예요?",
-          "native": "Berapa harga birnya?",
-          "pronunciation": "buh-rah-pah har-gah beer-nya",
-          "korean_pron": "브라빠 하르가 비르냐"
+          "korean": "[맥주]는 얼마예요?",
+          "native": "Berapa harga [bir]nya?",
+          "pronunciation": "buh-rah-pah har-gah [beer]-nya",
+          "korean_pron": "브라빠 하르가 [비르]냐"
         }
       ]
     }
