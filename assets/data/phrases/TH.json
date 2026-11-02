@@ -90,6 +90,18 @@
           "native": "น้ำแข็ง",
           "pronunciation": "nam khaeng",
           "korean_pron": "남캥"
+        },
+        {
+          "korean": "맥주 주세요",
+          "native": "ขอเบียร์",
+          "pronunciation": "kho bia",
+          "korean_pron": "커 비아"
+        },
+        {
+          "korean": "맥주는 얼마예요?",
+          "native": "เบียร์เท่าไหร่",
+          "pronunciation": "bia tao rai",
+          "korean_pron": "비아 타오라이"
         }
       ]
     }
