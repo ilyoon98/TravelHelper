@@ -92,16 +92,16 @@
           "korean_pron": "탈그"
         },
         {
-          "korean": "맥주 주세요",
-          "native": "ممكن بيرة لو سمحت",
-          "pronunciation": "momken bira law samaht",
-          "korean_pron": "몸킨 비라 로 사마흐트"
+          "korean": "[맥주] 주세요",
+          "native": "ممكن [بيرة] لو سمحت",
+          "pronunciation": "momken [bira] law samaht",
+          "korean_pron": "몸킨 [비라] 로 사마흐트"
         },
         {
-          "korean": "맥주는 얼마예요?",
-          "native": "البيرة بكام؟",
-          "pronunciation": "el-bira bikam",
-          "korean_pron": "엘비라 비캄"
+          "korean": "[맥주]는 얼마예요?",
+          "native": "[البيرة] بكام؟",
+          "pronunciation": "[el-bira] bikam",
+          "korean_pron": "[엘비라] 비캄"
         }
       ]
     }

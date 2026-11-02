@@ -92,16 +92,16 @@
           "korean_pron": "얘따"
         },
         {
-          "korean": "맥주 주세요",
-          "native": "Yksi olut, kiitos",
-          "pronunciation": "ewk-si oh-lut kee-tos",
-          "korean_pron": "윅시 올루트 끼또스"
+          "korean": "[맥주] 주세요",
+          "native": "Yksi [olut], kiitos",
+          "pronunciation": "ewk-si [oh-lut] kee-tos",
+          "korean_pron": "윅시 [올루트] 끼또스"
         },
         {
-          "korean": "맥주는 얼마예요?",
-          "native": "Paljonko olut maksaa?",
-          "pronunciation": "pahl-yon-ko oh-lut mahk-sah",
-          "korean_pron": "빨욘꼬 올루트 막사"
+          "korean": "[맥주]는 얼마예요?",
+          "native": "Paljonko [olut] maksaa?",
+          "pronunciation": "pahl-yon-ko [oh-lut] mahk-sah",
+          "korean_pron": "빨욘꼬 [올루트] 막사"
         }
       ]
     }
