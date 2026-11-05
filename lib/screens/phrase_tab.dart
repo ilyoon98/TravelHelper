@@ -4,6 +4,7 @@ import 'package:provider/provider.dart';
 import '../models/phrase_data.dart';
 import '../providers/country_provider.dart';
 import '../services/data_service.dart';
+import '../services/tts_service.dart';
 import 'widgets/app_header.dart';
 
 /// 탭3 — 여행 회화. Category chips filter which categories are shown;
@@ -138,6 +139,40 @@ class _PhraseRow extends StatelessWidget {
   final PhraseItem phrase;
   const _PhraseRow({required this.phrase});
 
+  static const _languageNames = {
+    'en': '영어',
+    'es': '스페인어',
+    'pt': '포르투갈어',
+    'ar': '아랍어',
+    'th': '태국어',
+    'ja': '일본어',
+    'vi': '베트남어',
+    'id': '인도네시아어',
+    'fi': '핀란드어',
+  };
+
+  Future<void> _speak(BuildContext context) async {
+    final country = context.read<CountryProvider>().selected;
+    final language = country.language ?? 'en';
+    final messenger = ScaffoldMessenger.of(context);
+    try {
+      await TtsService.instance.speak(
+        language: language,
+        countryCode: country.code,
+        text: phrase.native.replaceAll(RegExp(r'[\[\]]'), ''),
+      );
+    } on TtsUnavailableException {
+      messenger.showSnackBar(SnackBar(
+        content: Text(
+          '이 폰에 ${_languageNames[language] ?? language} 음성이 없어요. '
+          '설정 > 텍스트 음성 변환에서 음성 데이터를 받아주세요',
+        ),
+      ));
+    } catch (_) {
+      messenger.showSnackBar(const SnackBar(content: Text('음성을 재생하지 못했어요')));
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     final scheme = Theme.of(context).colorScheme;
@@ -147,7 +182,19 @@ class _PhraseRow extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Expanded(
-            child: _SwappableText(phrase.korean, style: const TextStyle(fontSize: 15, color: Colors.grey)),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                _SwappableText(phrase.korean, style: const TextStyle(fontSize: 15, color: Colors.grey)),
+                const SizedBox(height: 4),
+                IconButton.filledTonal(
+                  onPressed: () => _speak(context),
+                  icon: const Icon(Icons.volume_up, size: 20),
+                  tooltip: '발음 듣기',
+                  visualDensity: VisualDensity.compact,
+                ),
+              ],
+            ),
           ),
           Expanded(
             child: Column(
