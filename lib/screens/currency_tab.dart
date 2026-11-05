@@ -402,17 +402,20 @@ class _AmountBox extends StatelessWidget {
             currency,
             style: TextStyle(fontSize: 13, color: scheme.onSurfaceVariant, fontWeight: FontWeight.w600),
           ),
-          const Spacer(),
-          Flexible(
-            child: Text(
-              text,
-              style: TextStyle(
-                fontSize: isInput ? 30 : 26,
-                fontWeight: FontWeight.bold,
-                color: isInput ? scheme.onSurface : scheme.onSurfaceVariant,
+          const SizedBox(width: 12),
+          Expanded(
+            child: FittedBox(
+              fit: BoxFit.scaleDown,
+              alignment: Alignment.centerRight,
+              child: Text(
+                text,
+                maxLines: 1,
+                style: TextStyle(
+                  fontSize: isInput ? 30 : 26,
+                  fontWeight: FontWeight.bold,
+                  color: isInput ? scheme.onSurface : scheme.onSurfaceVariant,
+                ),
               ),
-              textAlign: TextAlign.right,
-              overflow: TextOverflow.ellipsis,
             ),
           ),
         ],
