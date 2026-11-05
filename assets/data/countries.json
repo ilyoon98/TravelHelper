@@ -100,6 +100,16 @@
     "hasPhrases": true
   },
   {
+    "code": "MU",
+    "name": "모리셔스",
+    "nameEn": "Mauritius",
+    "flag": "🇲🇺",
+    "language": "en",
+    "region": "아프리카",
+    "hasNumbers": true,
+    "hasPhrases": true
+  },
+  {
     "code": "EG",
     "name": "이집트",
     "nameEn": "Egypt",
@@ -246,6 +256,16 @@
     "flag": "🇪🇺",
     "language": null,
     "region": "유럽",
+    "hasNumbers": false,
+    "hasPhrases": false
+  },
+  {
+    "code": "USD",
+    "name": "미국 달러",
+    "nameEn": "US Dollar",
+    "flag": "🇺🇸",
+    "language": null,
+    "region": "북미",
     "hasNumbers": false,
     "hasPhrases": false
   }

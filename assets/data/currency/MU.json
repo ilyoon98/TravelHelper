@@ -1,0 +1,11 @@
+{
+  "code": "MU",
+  "name": "모리셔스",
+  "currencies": [
+    {
+      "currency": "MUR",
+      "symbol": "Rs",
+      "rate_to_krw": 31
+    }
+  ]
+}
