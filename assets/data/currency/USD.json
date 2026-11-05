@@ -1,0 +1,11 @@
+{
+  "code": "USD",
+  "name": "미국 달러",
+  "currencies": [
+    {
+      "currency": "USD",
+      "symbol": "$",
+      "rate_to_krw": 1380
+    }
+  ]
+}
